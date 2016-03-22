@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<table>
+    <base>CRM/Campaingtap</base>
+    <class>CampaingtapPersonal</class>
+    <name>civicrm_campaingtappersonal</name>
+    <comment>CampaingTap Personal</comment>
+    <add>4.5</add>
+    <log>true</log>
+
+    <field>
+        <name>id</name>
+        <type>int unsigned</type>
+        <required>true</required>
+        <comment>Unique ID of a Session</comment>
+        <add>4.5</add>
+    </field>
+    <primaryKey>
+        <name>id</name>
+        <autoincrement>true</autoincrement>
+    </primaryKey>
+
+    <field>
+        <name>title</name>
+        <type>varchar</type>
+        <length>64</length>
+        <title>Title</title>
+        <comment>Title of the personal</comment>
+        <add>4.5</add>
+    </field>
+    <field>
+        <name>description</name>
+        <type>text</type>
+        <title>Description</title>
+        <comment>Description of the personal</comment>
+        <add>4.5</add>
+    </field>
+
+    <field>
+        <name>role</name>
+        <type>varchar</type>
+        <length>64</length>
+        <title>Role</title>
+        <comment>Role the personal if appropriate for</comment>
+        <add>4.5</add>
+    </field>
+    <field>
+        <name>room</name>
+        <type>varchar</type>
+        <length>64</length>
+        <title>Room</title>
+        <comment>Room where the sesion will take place</comment>
+        <add>4.5</add>
+    </field>
+</table>

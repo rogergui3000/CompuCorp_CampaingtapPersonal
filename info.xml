@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="com.mekeidjeroger.personal.campaingtap" type="module">
+  <file>CampaingTap</file>
+  <name>CampaingTap 2016 - AngularJS</name>
+  <description>This module was built for the test solation for  Compucorp :personal campaing page , contact tap with AngularJS API  at 2016. The contact tab which displays a list of the personal campaign pages that a contact has created.and show the personal campaign page title (with a link to the page), status, contribution page or event that it is funding for, no of contributions, amount raised, target amount and a link to the edit page form.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Mekeidje Roger</author>
+    <email>mekeidje.roger@20four7va.com</email>
+  </maintainer>
+  <releaseDate>2016-03-15</releaseDate>
+  <version>0.1</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>01</ver>
+  </compatibility>
+  <comments>This module is for Compucorp recrutement test only.</comments>
+  <civix>
+    <namespace>CRM/CampaingTap</namespace>
+  </civix>
+</extension>

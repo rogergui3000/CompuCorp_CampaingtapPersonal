@@ -1,0 +1,33 @@
+<form class="crm-form-block form-layout">
+  <div class="field-group inline clearfix">
+    <label class="label" for="new-personal-title">Title</label>
+    <input id="new-personal-title" name="new-personal-title" type="text"
+           class="form-text big required"
+           ng-model="personal.title"/>
+  </div>
+
+  <div class="field-group inline clearfix">
+    <label class="label" for="new-personal-description">Description</label>
+    <textarea name="body_html" id="new-personal-description" cols="30" rows="3"
+              class="form-textarea"
+              ng-model="personal.description"></textarea>
+  </div>
+
+  <div class="field-group inline clearfix">
+    <label class="label" for="new-personal-role">Role</label>
+    <input id="new-personal-role" name="new-personal-role"
+           type="input" ng-model="personal.role"/>
+  </div>
+
+  <div class="field-group inline clearfix">
+    <label class="label" for="new-personal-room">Room</label>
+    <input id="new-personal-room" name="new-personal-room" type="text"
+           ng-model="personal.room"/>
+  </div>
+
+  <div class="clearfix">
+    <a class="button" href ng-click="addPersonal()">Save</a>
+    <a class="button" href="#/campaing">Cancel</a>
+  </div>
+
+</form>
